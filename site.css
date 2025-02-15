@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f1e3dd;
@@ -12,10 +11,66 @@ h1, h2, h3 {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #8d9db6;
-    padding: 20px 0;
-    text-align: center;
+    padding: 20px;
     color: white;
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #bccad6;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.text-content {
+    max-width: 60%;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #667292;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #8d9db6;
+}
+
+.image-content img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+    object-fit: cover;
+    margin-top: 20px;
 }
 
 footer {
@@ -24,52 +79,3 @@ footer {
     padding: 10px;
     text-align: center;
 }
-
-main {
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Styling for Images with Captions */
-img {
-    width: 100%;
-    max-width: 800px;
-    display: block;
-    margin: 0 auto;
-}
-
-figcaption {
-    text-align: center;
-    font-style: italic;
-    color: #8d9db6;
-}
-
-/* Links */
-a {
-    color: #667292;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-header a, footer a {
-    color: white;
-    text-decoration: none;
-}
-
-nav {
-    margin-top: 10px;
-}
-
-nav a {
-    margin: 0 15px;
-    font-weight: bold;
-}
-
-nav a:hover {
-    color: #bccad6;
-}
-

@@ -1,0 +1,60 @@
+<style>
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f1e3dd;
+    color: #667292;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #8d9db6;
+    padding: 20px;
+    color: white;
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #bccad6;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.text-content {
+    max-width: 60%;
+}
+
+.image-content img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    background: white;
+    padding: 10px;
+}
+
+footer {
+    background-color: #8d9db6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+</style>

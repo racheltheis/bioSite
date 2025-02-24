@@ -7,13 +7,32 @@ body {
 }
 
 header {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #8d9db6;
     padding: 20px;
-    background-color: #bccad6;
-    font-size: 24px;
+    color: white;
+    
+header h1 {
+    text-align: center;
+    font-size: 32px;
     font-weight: bold;
-    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 20px;
 }
+
+}
+
+nav a {
+    margin: 0 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #bccad6;
+}
+
 
 .recipe-container {
     display: flex;

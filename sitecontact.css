@@ -3,9 +3,11 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: #f1e3dd;
     color: #667292;
-    margin: 0;
     padding: 0;
+    margin-left: 40px;
+    margin-right: 40px;
 }
+
 
 h1, h2, h3 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -29,6 +31,8 @@ nav a {
 nav a:hover {
     color: #bccad6;
 }
+
+
 
 .about-section {
     display: flex;
@@ -58,3 +62,4 @@ footer {
     text-align: center;
 }
 </style>
+
